@@ -3,4 +3,4 @@ All people without task, you are to implement this design pixel perfect,  you ar
 NOTE: YOU CAN ONLY SUBMIT ONCE, SO BE VERY CAREFUL
 SUBMISSION DAY : 16/11/2022   (2:00PM)
 SUBMISSION LINK:  GOOGLE FORM
-DESIGN LINK: META BNB DESIGN
+DESIGN LINK: <a href="https://www.figma.com/file/atc36d5Cj9xJNupZALp9Tg/Metabnb-for-frontend?node-id=1%3A1658">META BNB DESIGN</a> 
