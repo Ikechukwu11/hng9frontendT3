@@ -13,16 +13,16 @@ export default function Navabar () {
           <div className="collapse navbar-collapse text-center" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mt-2 justify-content-center mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+                <Link className="nav-link me-md-4 active" aria-current="page" to="/">Home</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/place">Place to stay</Link>
+                <Link className="nav-link me-md-4" to="/place">Place to stay</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link">NFTs</Link>
+                <Link className="nav-link me-md-4">NFTs</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link">Community</Link>
+                <Link className="nav-link me-md-4">Community</Link>
               </li>
             </ul>
 
