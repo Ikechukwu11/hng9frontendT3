@@ -1,15 +1,29 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import {BrowserRouter} from 'react-router-dom';
 import './index.css';
-import '../node_modules/mdbootstrap/css/bootstrap.min.css';
-import '../node_modules/mdbootstrap/css/mdb.min.css';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 import App from './App';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Modal from './components/Modal';
+import ScrollToTop from "./components/ScrollToTop";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+   <BrowserRouter>
+    <ScrollToTop />
+    <section>
+    <Navbar/>
+    <Modal/>
     <App />
+    <Footer/>
+    </section>  
+    </BrowserRouter>
   </React.StrictMode>
 );
 

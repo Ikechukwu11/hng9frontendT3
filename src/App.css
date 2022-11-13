@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Red Rose';
+  background-color: #FFF;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-toggler {
+  border: none!important;
+  box-shadow: none!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27><path stroke=%27rgba%28160, 34, 121, 1%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/></svg>");
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-metabnb {
+  background-color: #A02279;
 }
 
-.App-link {
-  color: #61dafb;
+li a {
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #434343;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+li a.active{
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+  
+.navbar .btn{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border-radius: 10px;
+  color: #fff!important;
+  border-color: #A02279;
+}
+section {
+  background-color: #fff;
+}
+
+div#header {
+  margin-top: 125px;
+}
+
+div#header h3 {
+  font-size: 56px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #434343;
+}
+
+div#header h3 span{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+div#header p {
+  font-size: 24px;
+  line-height: 35px;  
+}
+
+.header-img img{
+  max-width: 250px;
+  border-radius: 16px;
+  padding: 10px;
+}
+
+
+.btn-submit{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border-radius: 0px 10px 10px 0px;
+  color: #fff!important;
+  border-color: #A02279
+
+}
+
+.card-metabnb {
+  width:auto;
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.card-metabnb img{
+  border-radius: 16px;
+}
+
+.card-metabnb .card-body{
+  font-size: 10px;
+  line-height: 13px;
+}
+
+img.heart {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+div#footer1,div#footer2 {
+  padding: 100px 0;
+}
+
+div#footer1 h3{
+  font-size: 56px;
+  line-height: 140%;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+div#footer1 p {
+  font-size: 24px;
+  line-height: 35px;
+  color: #fff;  
+}
+
+.main-footer {
+  background-color: #1D1D1E;
+}
+
+div#footer2 h5{
+  color: #fff !important;
+  font-weight: 700;
+}
+
+div#footer2 .nav-link {
+  color: #F1F3F9;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+div#footer2 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+}
+
+.btn.learnmore {
+  color: #A02279;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+}
+
+
+/*Modal*/
+
+#connectwallet {
+  border-radius: 16px; 
+}
+.modal-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #333333;
+}
+
+.btn-close:focus {
+  outline: 0;
+  box-shadow: none!important;
+  color: #1a1a1a;
+}
+
+.connect-option {
+  border: 1px solid #CFD8DC;
+  border-radius: 12px;
+  padding: 12px 20px;
+}
+
+/*Media Queries*/
+@media(max-width:600px){
+  .header-img img{
+    max-width: 100%;
   }
 }
