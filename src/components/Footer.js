@@ -5,7 +5,7 @@ export default function Footer () {
     <div className="container" id="footer2">
     <div className="row">
       
-      <div className="col-md-6 col-lg">
+      <div className="col-md-6 col-lg mb-4">
         <a href="/" className="d-flex align-items-center mb-5 text-decoration-none">
           <img src="./images/logolight.svg" alt="lightlogo" loading="lazy"/>
         </a>
@@ -20,7 +20,7 @@ export default function Footer () {
 
       </div>
 
-      <div className="col-md-6 col-lg">
+      <div className="col-md-6 col-lg mb-4">
         <h5>Community</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2"><a  className="nav-link p-0 ">NFT</a></li>
@@ -30,7 +30,7 @@ export default function Footer () {
         </ul>
       </div>
 
-      <div className="col-md-6 col-lg">
+      <div className="col-md-6 col-lg mb-4">
         <h5>Places</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2"><a  className="nav-link p-0 ">Castle</a></li>
@@ -40,7 +40,7 @@ export default function Footer () {
         </ul>
       </div>
 
-      <div className="col-md-6 col-lg">
+      <div className="col-md-6 col-lg mb-4">
         <h5>About us</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2"><a  className="nav-link p-0 ">Road map</a></li>
@@ -49,7 +49,7 @@ export default function Footer () {
           <li className="nav-item mb-2"><a  className="nav-link p-0 ">Contact us</a></li>
         </ul>
       </div>
-      <div className='col-12'>
+      <div className='col-12 '>
       <p className="mt-5">© 2022 Metabnb</p>
       </div>
       </div>
