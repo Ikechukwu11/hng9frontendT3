@@ -183,6 +183,10 @@ a.link-filter {
   color: #333333;
 }
 
+.filter-btn.dropdown-toggle::after {
+  display: none!important;
+}
+
 
 /*Media Queries*/
 @media(max-width:767px){
