@@ -2,7 +2,7 @@ export default function Home(){
   return (
     <section>
       <div className="container" id="header">
-        <div className="row justify-content-center align-items-center g-2">
+        <div className="row justify-content-center align-items-center">
           <div className="col-lg-6">
             <h3>Rent a <span>Place</span> away from <span>Home</span> in the <span>Metaverse</span></h3>
             <p>we provide you access to luxury and affordable houses in the metaverse, 
@@ -34,9 +34,9 @@ export default function Home(){
         </div>
         
         <div className="row bg-metabnb text-center py-3 my-5">
-          <div className="col-md-4"> <img src="./images/mbtoken.svg" alt=""/></div>
-          <div className="col-md-4"> <img src="./images/metamask.svg" alt=""/></div>
-          <div className="col-md-4"> <img src="./images/opensea.svg" alt=""/></div>
+          <div className="col-md-4 mb-4 mb-md-0"> <img src="./images/mbtoken.svg" alt=""/></div>
+          <div className="col-md-4 mb-4 mb-md-0"> <img src="./images/metamask.svg" alt=""/></div>
+          <div className="col-md-4 mb-4 mb-md-0"> <img src="./images/opensea.svg" alt=""/></div>
 
         </div>
         
@@ -133,7 +133,7 @@ export default function Home(){
           <div className="col-md-6 col-xl-3 mt-4">
             <div className="card card-metabnb">
             <img className="heart" src="./images/heart.svg" width={24} alt="favourite"/>
-              <img src="./images/druid6.png" className="card-img-top" alt="..." />
+              <img src="./images/dvn1.png" className="card-img-top" alt="..." />
               <div className="card-body">
                 <div className="row">
                   <div className="col-5 mt-2">Desert king</div>
@@ -155,7 +155,7 @@ export default function Home(){
           <div className="col-md-6 col-xl-3 mt-4">
             <div className="card card-metabnb">
             <img className="heart" src="./images/heart.svg" width={24} alt="favourite"/>
-              <img src="./images/aise.png" className="card-img-top" alt="..." />
+              <img src="./images/s5.png" className="card-img-top" alt="..." />
               <div className="card-body">
                 <div className="row">
                   <div className="col-5 mt-2">Desert king</div>
@@ -177,7 +177,7 @@ export default function Home(){
           <div className="col-md-6 col-xl-3 mt-4">
             <div className="card card-metabnb">
             <img className="heart" src="./images/heart.svg" width={24} alt="favourite"/>
-              <img src="./images/s1.png" className="card-img-top" alt="..." />
+              <img src="./images/s16.png" className="card-img-top" alt="..." />
               <div className="card-body">
                 <div className="row">
                   <div className="col-5 mt-2">Desert king</div>
@@ -199,7 +199,7 @@ export default function Home(){
           <div className="col-md-6 col-xl-3 mt-4">
             <div className="card card-metabnb">
             <img className="heart" src="./images/heart.svg" width={24} alt="favourite"/>
-              <img src="./images/aise1.png" className="card-img-top" alt="..." />
+              <img src="./images/s11.png" className="card-img-top" alt="..." />
               <div className="card-body">
                 <div className="row">
                   <div className="col-5 mt-2">Desert king</div>
@@ -223,7 +223,7 @@ export default function Home(){
       </div>
       <div className="container-fluid bg-metabnb">
         <div className="container" id="footer1">
-        <div className="row py-3 my-5">
+        <div className="row py-2 my-2 py-md-3 my-md-5">
           <div className="col-lg-6">
             <h3>Metabnb NFTs</h3>
             <p>Discover our NFT gift cards collection. 

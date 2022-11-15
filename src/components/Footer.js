@@ -3,16 +3,16 @@ export default function Footer () {
   return (
     <div className="container-fluid main-footer">
     <div className="container" id="footer2">
-    <div className="row">
+    <div className="row footer-row">
       
-      <div className="col-md-6 col-lg mb-4">
-        <a href="/" className="d-flex align-items-center mb-5 text-decoration-none">
+      <div className="col-md-6 col-lg mb-5 mb-md-4">
+        <a href="/" className="d-flex align-items-center mb-5 text-decoration-none footer-logo">
           <img src="./images/logolight.svg" alt="lightlogo" loading="lazy"/>
         </a>
-        <ul className="list-unstyled d-flex align-items-center mt-5">
+        <ul className="list-unstyled d-flex align-items-center mt-5 social-list">
         <li className="me-3"><a className="text-white" href="#"><img src="./images/facebook.svg" alt="fb" loading="lazy"/><svg className="bi" width="24" height="24"></svg></a></li>
-        <li className="me-3"><a className="link-dark" href="#"><img src="./images/instagram.svg" alt="in" loading="lazy"/><svg className="bi" width="24" height="24"></svg></a></li>
-        <li className="me-3"><a className="link-dark" href="#"><img src="./images/twitter.svg" alt="tw" loading="lazy"/></a></li>
+        <li className="me-3"><a className="text-white" href="#"><img src="./images/instagram.svg" alt="in" loading="lazy"/><svg className="bi" width="24" height="24"></svg></a></li>
+        <li className="me-3"><a className="text-white" href="#"><img src="./images/twitter.svg" alt="tw" loading="lazy"/></a></li>
         </ul>
       </div>
 
@@ -20,7 +20,7 @@ export default function Footer () {
 
       </div>
 
-      <div className="col-md-6 col-lg mb-4">
+      <div className="text-center text-md-start col-md-6 col-lg mb-5 mb-md-4">
         <h5>Community</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2"><a  className="nav-link p-0 ">NFT</a></li>
@@ -30,7 +30,7 @@ export default function Footer () {
         </ul>
       </div>
 
-      <div className="col-md-6 col-lg mb-4">
+      <div className="text-center text-md-start col-md-6 col-lg mb-5 mb-md-4">
         <h5>Places</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2"><a  className="nav-link p-0 ">Castle</a></li>
@@ -40,7 +40,7 @@ export default function Footer () {
         </ul>
       </div>
 
-      <div className="col-md-6 col-lg mb-4">
+      <div className=" text-center text-md-start col-md-6 col-lg mb-5 mb-md-4">
         <h5>About us</h5>
         <ul className="nav flex-column">
           <li className="nav-item mb-2"><a  className="nav-link p-0 ">Road map</a></li>
@@ -49,7 +49,7 @@ export default function Footer () {
           <li className="nav-item mb-2"><a  className="nav-link p-0 ">Contact us</a></li>
         </ul>
       </div>
-      <div className='col-12 '>
+      <div className='col-12 text-center text-md-start'>
       <p className="mt-5">© 2022 Metabnb</p>
       </div>
       </div>
